@@ -26,7 +26,7 @@ python Damped_pendulum.py
 
 Each opens a live matplotlib window and animates until you close it.
 
-## Three_body_problem.py
+## Three body problem.py
 
 Simulates three bodies of given mass under mutual gravity, using the
 second-order finite-difference recursion derived in the write-up. The
@@ -43,7 +43,7 @@ Adjustable parameters at the top of the file: `G` (gravitational constant),
 `h` (time step), `n` (iterations), `a` (plot boundary), and each body's
 mass, initial position and initial velocity.
 
-## Damped_pendulum.py
+## Damped pendulum.py
 
 Simulates a single pendulum with linear drag, applying the same
 finite-difference approach to a second-order ODE.
@@ -51,11 +51,3 @@ finite-difference approach to a second-order ODE.
 Adjustable parameters: `g` (gravitational acceleration), `h` (time step),
 `n` (iterations), `l` (rod length), `a0` (initial angle, in radians), `m`
 (mass), and `mu` (drag coefficient).
-
-## Notes
-
-Both scripts implement the recursion derived in Part 1 of the Numerical
-Analysis series — see the write-up linked above for the full derivation.
-Truncation error and energy conservation aren't accounted for in either
-script; these are basic implementations of the underlying numerical idea,
-not physically rigorous simulations.
