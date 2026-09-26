@@ -6,9 +6,9 @@ numerically solving ordinary differential equations, derived and explained in
 
 ## Contents
 
-- `Three_body_problem.py` — simulates three gravitationally-interacting
+- `Three body problem.py` — simulates three gravitationally-interacting
   bodies in 2D, animated live with matplotlib.
-- `Damped_pendulum.py` — simulates a damped pendulum's swing over time,
+- `Damped pendulum.py` — simulates a damped pendulum's swing over time,
   animated the same way.
 
 ## Requirements
@@ -18,11 +18,6 @@ pip install numpy matplotlib
 ```
 
 ## Running
-
-```
-python Three_body_problem.py
-python Damped_pendulum.py
-```
 
 Each opens a live matplotlib window and animates until you close it.
 
