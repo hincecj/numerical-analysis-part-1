@@ -1,4 +1,4 @@
-# Three-Body Problem & Damped Pendulum
+# numerical-analysis-part-1
 
 Two Python simulations built around a forward finite-difference method for
 numerically solving ordinary differential equations, derived and explained in
